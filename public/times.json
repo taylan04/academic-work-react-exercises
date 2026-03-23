@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nome": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "estadio": "Maracanã",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Clube_de_Regatas_do_Flamengo_logo.svg/500px-Clube_de_Regatas_do_Flamengo_logo.svg.png"
+  },
+  {
+    "id": 2,
+    "nome": "São Paulo",
+    "cidade": "São Paulo",
+    "estadio": "Morumbi",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/3840px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png"
+  },
+  {
+    "id": 3,
+    "nome": "Corinthians",
+    "cidade": "São Paulo",
+    "estadio": "Neo Química Arena",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png"
+  },
+  {
+    "id": 4,
+    "nome": "Grêmio",
+    "cidade": "Porto Alegre",
+    "estadio": "Arena do Grêmio",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/960px-Gremio_logo.svg.png"
+  },
+  {
+    "id": 5,
+    "nome": "Cruzeiro",
+    "cidade": "Belo Horizonte",
+    "estadio": "Mineirão",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cruzeiro_Esporte_Clube_%28logo%29.svg/500px-Cruzeiro_Esporte_Clube_%28logo%29.svg.png"
+  }
+]

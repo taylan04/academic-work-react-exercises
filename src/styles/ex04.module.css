@@ -1,0 +1,24 @@
+@font-face {
+    font-family: sora;
+    src: url(../fonts/Sora-VariableFont_wght.ttf);
+}
+
+.botao * {
+    font-family: sora;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.botao > button {
+  background-color: #3654ff;
+  color: #ffffff;
+  width: 8.5em;
+  height: 2.9em;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+}

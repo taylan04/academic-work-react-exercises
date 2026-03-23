@@ -1,0 +1,47 @@
+@font-face {
+    font-family: sora;
+    src: url(../fonts/Sora-VariableFont_wght.ttf);
+}
+
+button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: sora;
+    background-color: rgb(16, 16, 179);
+    padding: 8px;
+    width: 140px;
+    color: white;
+    border: none;
+}
+
+button > i {
+    color: white;
+}
+
+.times {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+.time {
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: rgba(149, 157, 165, 0.289) 0px 8px 24px;
+}
+
+.time > div > p {
+    text-align:start;
+}
+
+.time > img {
+    width: 50px;
+    
+}
