@@ -7,10 +7,11 @@ import Ex04 from './exercicios/ex04/Ex04';
 import Ex05 from './exercicios/ex05/Ex05';
 import ListaTimes from './exercicios/ex06/ListaTimes';
 import ListandoTarefas from './exercicios/ex07/ListandoTarefas';
+import CartaoProduto from './exercicios/ex08/CartaoProduto';
 
 function App() {
 
-  const exercicio = 7;
+  const exercicio = 8;
 
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
       {exercicio == 5 && <Ex05 />}
       {exercicio == 6 && <ListaTimes />}
       {exercicio == 7 && <ListandoTarefas />}
+      {exercicio == 8 && <CartaoProduto />}
     </>
   )
 }
