@@ -18,7 +18,7 @@ export default function ListaTimes() {
 
     return (
         <div>
-        <button onClick={carregar}><i className="fa-regular fa-circle-right fa-lg"></i> ver times</button>
+        <button className={styles.button} onClick={carregar}><i className="fa-regular fa-circle-right fa-lg"></i> ver times</button>
         <div className={styles.times}>
         {carregado ? times.map((time, i) => <Time time={time}/>) : null}
         </div>
