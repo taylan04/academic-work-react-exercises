@@ -9,10 +9,11 @@ import ListaTimes from './exercicios/ex06/ListaTimes';
 import ListandoTarefas from './exercicios/ex07/ListandoTarefas';
 import CartaoProduto from './exercicios/ex08/CartaoProduto';
 import Ex09 from './exercicios/ex09/Ex09';
+import Ex10 from './exercicios/ex10/Ex10'
 
 function App() {
 
-  const exercicio = 9;
+  const exercicio = 10;
 
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
       {exercicio == 7 && <ListandoTarefas />}
       {exercicio == 8 && <CartaoProduto />}
       {exercicio == 9 && <Ex09 />}
+      {exercicio == 10 && <Ex10 />}
     </>
   )
 }
