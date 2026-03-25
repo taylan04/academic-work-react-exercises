@@ -35,20 +35,13 @@ export default function Ex09() {
     const [tarefas, setTarefas] = useState(listaTarefas);
 
     function marcarTodas() {
-    const novasTarefas = tarefas.map((tarefa) => ({
-        ...tarefa,
-        status: true
-    }));
+    const novasTarefas = tarefas.map((tarefa) => ({...tarefa, status: true }));
 
     setTarefas(novasTarefas);
     }
 
     function marcarTarefa(id) {
-    const novasTarefas = tarefas.map((tarefa) =>
-        tarefa.id === id
-            ? { ...tarefa, status: true }
-            : tarefa
-    );
+    const novasTarefas = tarefas.map((tarefa) => tarefa.id === id ? { ...tarefa, status: true } : tarefa );
 
     setTarefas(novasTarefas);
 }

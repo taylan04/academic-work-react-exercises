@@ -10,10 +10,13 @@ import ListandoTarefas from './exercicios/ex07/ListandoTarefas';
 import CartaoProduto from './exercicios/ex08/CartaoProduto';
 import Ex09 from './exercicios/ex09/Ex09';
 import Ex10 from './exercicios/ex10/Ex10'
+import Ex11 from './exercicios/ex11/Ex11';
+import Ex12 from './exercicios/ex12/Ex12';
+import Contador from './exercicios/ex13/Contador';
 
 function App() {
 
-  const exercicio = 10;
+  const exercicio = 13;
 
   return (
     <>
@@ -27,6 +30,9 @@ function App() {
       {exercicio == 8 && <CartaoProduto />}
       {exercicio == 9 && <Ex09 />}
       {exercicio == 10 && <Ex10 />}
+      {exercicio == 11 && <Ex11 />}
+      {exercicio == 12 && <Ex12 />}
+      {exercicio == 13 && <Contador />}
     </>
   )
 }
