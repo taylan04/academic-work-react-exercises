@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DataList from "./DataList";
+import styles from "../../styles/ex16.module.css"
 
 export default function Ex16() {
 
@@ -11,8 +12,8 @@ export default function Ex16() {
             setAtores(data)})
     
     return (
-        <div>
+        <>
         <DataList atores={atores} />
-        </div>
+        </>
     )
 }

@@ -1,8 +1,10 @@
+import styles from "../../styles/ex14.module.css"
+
 export default function UserName({nome}) {
 
     return (
-        <div>
-            <p>{nome}</p>
-        </div>
+        <>
+            <p className={styles.nome}>{nome}</p>
+        </>
     )
 }

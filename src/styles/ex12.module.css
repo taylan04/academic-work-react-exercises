@@ -1,0 +1,37 @@
+@font-face {
+    font-family: sora;
+    src: url(../fonts/Sora-VariableFont_wght.ttf);
+}
+
+.itens {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 40px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 50px;
+}
+
+.campo {
+    font-family: sora;
+    padding: 8px;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.item {
+    font-family: sora;
+    font-size: 13px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 300;
+    width: 20%;
+}

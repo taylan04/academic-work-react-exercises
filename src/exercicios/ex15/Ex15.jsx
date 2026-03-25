@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ItemList from "./ItemList"
+import styles from "../../styles/ex15.module.css"
 
 export default function Ex15() {
 
@@ -32,17 +33,22 @@ export default function Ex15() {
     setItens([...itens, novoItem])
     }
 
-    const itensFiltrados = itens.filter((item) => item.nome.toLowerCase().includes(filtro.toLowerCase()));
+    function itensFiltrados() {
+        return itens.filter((item) => item.nome.toLowerCase().trim().includes(filtro.toLowerCase().trim()));
+    }
+    
 
     return (
-        <div>
-            <ItemList itens={itensFiltrados} />
-            <input type="text" onChange={(e) => setFiltro(e.target.value)} placeholder="Pesquisar Item"/>
-            <div>
-                <p><strong>Adicionar Item</strong></p>
-                <input type="text" onChange={(e) => setNovoNome(e.target.value)} placeholder="Nome do Item" />
-                <button onClick={adicionar}>Adicionar Item</button>
-            </div>
+        <>
+        <div className={styles.itens}>
+            <ItemList itens={itensFiltrados()} />
         </div>
+        <div className={styles.form}>
+            <input type="text" onChange={(e) => setFiltro(e.target.value)} placeholder="Pesquisar Item"/>
+            <p><strong>Adicionar Item</strong></p>
+            <input type="text" onChange={(e) => setNovoNome(e.target.value)} placeholder="Nome do Item" />
+            <button onClick={adicionar}>Adicionar Item</button>
+        </div>
+        </>
     )
 }

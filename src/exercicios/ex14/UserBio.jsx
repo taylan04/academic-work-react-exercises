@@ -1,8 +1,10 @@
+import styles from "../../styles/ex14.module.css"
+
 export default function UserBio({bio}) {
 
     return (
-        <div>
-            <p>{bio}</p>
-        </div>
+        <>
+            <p className={styles.bio}>{bio}</p>
+        </>
     )
 }

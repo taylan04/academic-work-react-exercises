@@ -1,0 +1,20 @@
+@font-face {
+    font-family: sora;
+    src: url(../fonts/Sora-VariableFont_wght.ttf);
+}
+
+.contador > button {
+    padding: 12px;
+    border: 2px solid rgba(143, 143, 143, 0.479);
+    background-color: black;
+    color: white;
+    width: 8%;
+    border-radius: 15px;
+}
+
+.contador {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 40px;
+}

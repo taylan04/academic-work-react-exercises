@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ListaTarefas from "./ListaTarefas";
+import styles from "../../styles/ex11.module.css"
 
 export default function Ex11() {
 
@@ -77,11 +78,15 @@ export default function Ex11() {
 
     return (
         <>
-        <input onChange={(e) => setTitulo(e.target.value)} placeholder="Tarefa" />
-        <input onChange={(e) => setPrazo(e.target.value)} placeholder="Prazo" />
-        <button onClick={adicionar}>Adicionar</button>
-        <button onClick={alternarFiltro}>Mostrar: {filtro}</button>
+        <div className={styles.form}>
+        <input className={styles.campo} onChange={(e) => setTitulo(e.target.value)} placeholder="Tarefa" />
+        <input className={styles.campo} onChange={(e) => setPrazo(e.target.value)} placeholder="Prazo" />
+        <button className={styles.botao} onClick={adicionar}>Adicionar</button>
+        <button className={styles.botao} onClick={alternarFiltro}>Mostrar: {filtro}</button>
+        </div>
+        <div className={styles.tarefas}>
         <ListaTarefas tarefas={tarefasFiltradas} marcar={marcarTarefa}/>
+        </div>
         </>
     )
 }

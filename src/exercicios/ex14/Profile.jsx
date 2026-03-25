@@ -1,6 +1,7 @@
 import ProfilePicture from "./ProfilePicture"
 import UserName from "./UserName"
 import UserBio from "./UserBio"
+import styles from "../../styles/ex14.module.css"
 
 export default function Profile() {
 
@@ -11,7 +12,7 @@ export default function Profile() {
     }
 
     return (
-        <div>
+        <div className={styles.profile}>
             <ProfilePicture imagem={eu.imagem}/>
             <UserName nome={eu.nome} />
             <UserBio bio={eu.bio} />

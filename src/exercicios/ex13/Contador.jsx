@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styles from "../../styles/ex13.module.css"
 
 export default function Contador() {
 
@@ -9,7 +10,7 @@ export default function Contador() {
     }
 
     return (
-        <div>
+        <div className={styles.contador}>
             <button onClick={contabilizarClique}>Cliques</button>
             <p>{cliques}</p>
         </div>

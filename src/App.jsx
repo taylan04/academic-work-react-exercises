@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import styles from './styles/app.module.css'
 import LoginForm from './exercicios/ex01/LoginForm'
 import Ex02 from './exercicios/ex02/Ex02';
 import Ex03 from './exercicios/ex03/Ex03';
@@ -19,10 +19,13 @@ import Ex16 from './exercicios/ex16/Ex16';
 
 function App() {
 
-  const exercicio = 16;
+    const [exercicio, setExercicio] = useState(0)
 
   return (
     <>
+    <div className={styles.form}>
+     <input className={styles.campo} placeholder='Digite o número do exercício' type='text' onChange={(e) => setExercicio(e.target.value)}/>
+    </div>
       {exercicio == 1 && <LoginForm />}
       {exercicio == 2 && <Ex02 />}
       {exercicio == 3 && <Ex03 />}

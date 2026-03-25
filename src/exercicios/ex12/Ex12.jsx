@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DataList from "./DataList";
+import styles from "../../styles/ex12.module.css"
 
 export default function Ex12() {
 
@@ -21,9 +22,13 @@ export default function Ex12() {
     }
 
     return (
+        <>
+        <div className={styles.botoes}>
+            <input className={styles.campo} type="text" onChange={(e) => buscarItem(e.target.value)} placeholder="Item"/>
+        </div>
         <div>
-            <input type="text" onChange={(e) => buscarItem(e.target.value)} placeholder="Item"/>
             <DataList itens={itens} />
         </div>
+        </>
     )
 }
