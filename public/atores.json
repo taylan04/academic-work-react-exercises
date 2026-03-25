@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Robert Downey Jr.",
+    "idade": 58,
+    "principal_filme": "Homem de Ferro",
+    "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/robert-downey-jr-oscar.jpg?w=1200&h=1200&crop=1"
+  },
+  {
+    "nome": "Chris Evans",
+    "idade": 42,
+    "principal_filme": "Capitão América: O Primeiro Vingador",
+    "imagem": "https://www.estrelando.com.br/uploads/2024/12/10/chris-evans-1733840500.jpg"
+  },
+  {
+    "nome": "Chris Hemsworth",
+    "idade": 40,
+    "principal_filme": "Thor",
+    "imagem": "https://hips.hearstapps.com/hmg-prod/images/chris-hemsworth-attends-marvel-studios-thor-love-and-news-photo-1709740913.jpg?crop=0.873xw:0.764xh;0.0472xw,0.0128xh&resize=1200:*"
+  },
+  {
+    "nome": "Scarlett Johansson",
+    "idade": 39,
+    "principal_filme": "Viúva Negra",
+    "imagem": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/scarlett-johansson.jpg?w=1200&h=1200&crop=1"
+  },
+  {
+    "nome": "Tom Holland",
+    "idade": 27,
+    "principal_filme": "Homem-Aranha: De Volta ao Lar",
+    "imagem": "https://yt3.googleusercontent.com/0jJdLBuYqNOCpxbu3M8EJSXwJx6M1uNVZA5VAHGbX1ijNzp16qRjiKegW8RSI6YazOUkzfHuYA=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "nome": "Mark Ruffalo",
+    "idade": 56,
+    "principal_filme": "Os Vingadores",
+    "imagem": "https://www.famousbirthdays.com/faces/ruffalo-mark-image.jpg"
+  },
+  {
+    "nome": "Benedict Cumberbatch",
+    "idade": 47,
+    "principal_filme": "Doutor Estranho",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Benedict_Cumberbatch_filming_Sherlock_cropped2.jpg/250px-Benedict_Cumberbatch_filming_Sherlock_cropped2.jpg"
+  },
+  {
+    "nome": "Chadwick Boseman",
+    "idade": 43,
+    "principal_filme": "Pantera Negra",
+    "imagem": "https://static.wikia.nocookie.net/dublagempedia/images/b/b5/Rs_1200x1200-200828200953-1200-chadwick-boseman.ct.jpg/revision/latest?cb=20200911133447&path-prefix=pt-br"
+  },
+  {
+    "nome": "Brie Larson",
+    "idade": 34,
+    "principal_filme": "Capitã Marvel",
+    "imagem": "https://media.themoviedb.org/t/p/w235_and_h235_face/xSGvMwNNJcEQvVcjiIUTyxyMfkZ.jpg"
+  },
+  {
+    "nome": "Paul Rudd",
+    "idade": 54,
+    "principal_filme": "Homem-Formiga",
+    "imagem": "https://www.midiorama.com/wp-content/uploads/2021/11/paul-rudd.jpg"
+  }
+]
