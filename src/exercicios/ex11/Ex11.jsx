@@ -55,7 +55,7 @@ export default function Ex11() {
     function proximoId() {
     const ids = tarefas.map((tarefa) => tarefa.id);
     return Math.max(...ids) + 1;
-}
+    }
 
     function alternarFiltro() {
     if (filtro === "todas") setFiltro("pendentes");

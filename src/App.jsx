@@ -14,10 +14,11 @@ import Ex11 from './exercicios/ex11/Ex11';
 import Ex12 from './exercicios/ex12/Ex12';
 import Contador from './exercicios/ex13/Contador';
 import Profile from './exercicios/ex14/Profile';
+import Ex15 from './exercicios/ex15/Ex15';
 
 function App() {
 
-  const exercicio = 14;
+  const exercicio = 15;
 
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
       {exercicio == 12 && <Ex12 />}
       {exercicio == 13 && <Contador />}
       {exercicio == 14 && <Profile />}
+      {exercicio == 15 && <Ex15 />}
     </>
   )
 }
