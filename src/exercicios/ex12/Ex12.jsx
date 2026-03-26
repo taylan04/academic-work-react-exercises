@@ -16,7 +16,7 @@ export default function Ex12() {
 
     function buscarItem(nome) {
 
-        const listaItens = nome.length > 0 ? lista.filter((item) => item.nome.toLowerCase().includes(nome.toLowerCase())) : lista;
+        const listaItens = nome.length > 0 ? lista.filter((item) => item.nome.toLowerCase().trim().includes(nome.toLowerCase().trim())) : lista;
 
         setItens(listaItens);
     }
